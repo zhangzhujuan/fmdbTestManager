@@ -13,7 +13,7 @@
 
 @required
 /**
- *  return the name of databse file, CTPersistanceDatabasePool will create CTDatabase by this string.
+ *  return the name of databse file, RYDataBaseTableProtocol will create CTDatabase by this string.
  *
  *  @return return the name of database file
  */
@@ -27,7 +27,7 @@
 - (NSString *)tableName;
 
 /**
- *  column info with this table. If table not exists in database, CTPersistance will create a table based on the column info you provided
+ *  column info with this table. If table not exists in database, RYDataBaseTable will create a table based on the column info you provided
  *
  *  @return return the column info of your table
  */

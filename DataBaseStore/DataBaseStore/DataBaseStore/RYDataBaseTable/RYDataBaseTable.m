@@ -63,10 +63,6 @@
     [self close];
 }
 
-//*****************************************************************************/
-#pragma mark - 更改
-//*****************************************************************************/
-
 #pragma mark - public methods
 
 - (BOOL)createTable:(NSString *)tableName columnInfo:(NSDictionary *)columnInfo
